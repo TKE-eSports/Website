@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 80px;
+}
+
+/*
+
+Main Page
+
+*/
+
+/* Navbar */
+.navbar {
+  display: block;
+  z-index: 1;
+  text-align: center;
+  margin: 0.5em;
+
+  overflow: hidden;
+  max-height: 0;
+  transition: 0.25s max-height ease-in-out;
+}
+
+.navbar.open {
+  max-height: 75px;
+}
+
+.navbar-content {
+  display: inline-block;
+}
+
+.navbar-item {
+  display: inline-block;
+  margin: auto;
+}
+
+.navbar-pulldown {
+  text-align: center;
+  display: block;
+}
+
+.navbar-pulldown .iconify {
+  font-size: 1.5em;
+
+  transition: 0.25s transform ease-in-out;
+  transform: rotate(0deg) !important;
+}
+
+.navbar-pulldown.open .iconify {
+  transform: rotate(-180deg) !important;
+}
+
+.button,
+.button:visited {
+  /* cursor: default; */
+
+  background: black;
+  color: white;
+
+  padding: 0.3em 0.5em;
+  border: 1px solid white;
+  border-radius: 0.1em;
+
+  transition: 0.15s all linear;
+}
+
+.button:hover {
+  color: #bbb;
+  border-radius: 0.3em;
+}
+
+.button.primary {
+  background: white;
+  color: black;
+}
+
+.button.primary:hover {
+  color: #444;
+  background: #ddd;
+}
+
+.navbar-end {
+  float: right;
+  margin-right: 1em;
+}
+
+@media only screen and (max-width: 720px) {
+  .navbar-content,
+  .navbar-item {
+    display: block;
+  }
+
+  .navbar-item {
+    margin-top: 0.25em;
+  }
+
+  .container {
+    margin: auto 0.5em;
+  }
+
+  .navbar.open {
+    max-height: 325px;
+  }
+}
+
+/* Up-down Animation */
+.up-down {
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
+}
+
+@-webkit-keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.top-header {
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: #161616;
+  font-family: "VALORANT";
+  font-size: 8vw;
+}
+
+.text-header {
+  -webkit-animation: action 500000s infinite alternate;
+  animation: action 500000s infinite alternate;
+  position: absolute;
+  left: 0;
+  top: 60%;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: #161616;
+  font-family: sans-serif;
+  font-size: 3vw;
+}
+
+/* Opening Animation */
+.intro {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #161616;
+  transition: 1s;
+}
+
+.logo-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+  font-size: 10vw;
+  font-family: "VALORANT";
+}
+
+.logo.active {
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+}
+
+.logo.fade {
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
