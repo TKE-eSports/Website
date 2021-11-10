@@ -1,6 +1,5 @@
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/Status-Online-green">
-  <img src="https://img.shields.io/badge/Maintained-Yes-green">
 </p>
 
 # Website
