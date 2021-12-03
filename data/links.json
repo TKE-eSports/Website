@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Discord",
+    "url": "https://discord.gg/Vgd5vMn",
+    "embed": {
+      "upperTitle": null,
+      "title": null,
+      "description": null,
+      "thumbnail": "https://cdn.tke-esports.tk/cdn/logos/discord.png",
+      "image": null,
+      "color": "#5865F2"
+    }
+  },
+  {
+    "name": "Twitter",
+    "url": "https://twitter.com/TIMEKEEPERS0",
+    "embed": {
+      "upperTitle": null,
+      "title": null,
+      "description": "2019 Indian Mobile Gaming esports organization | Founder :-  @HARSHUCHIDA61 | Currently Competing in @Brawlstars | #CONTROLTHETIME #TKEOP | @relics_global",
+      "thumbnail": "https://cdn.tke-esports.tk/cdn/logos/twitter.png",
+      "image": null,
+      "color": "#1DA1F2"
+    }
+  },
+  {
+    "name": "Youtube",
+    "url": "https://www.youtube.com/channel/UCLR40w4ybZ8abGF-AyhGbNg/about",
+    "embed": {
+      "upperTitle": null,
+      "title": null,
+      "description": null,
+      "thumbnail": "https://cdn.tke-esports.tk/cdn/logos/youtube.png",
+      "image": null,
+      "color": "#FF0000"
+    }
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/timekeepers0",
+    "embed": {
+      "upperTitle": null,
+      "title": null,
+      "description": "2019 Indian Mobile Gaming esports organization | Currently Competing in @Brawlstars| #CONTROLTHETIME #TKEOP | discord.gg/Vgd5vMn",
+      "thumbnail": "https://cdn.tke-esports.tk/cdn/logos/instagram.png",
+      "image": null,
+      "color": "#cd486b"
+    }
+  },
+  {
+    "name": "Github",
+    "url": "https://github.com/TKE-eSports",
+    "embed": {
+      "upperTitle": null,
+      "title": null,
+      "description": null,
+      "thumbnail": "https://cdn.tke-esports.tk/cdn/logos/github.png",
+      "image": null,
+      "color": "#2C2F33"
+    }
+  },
+  {
+    "name": "Status",
+    "url": "https://status.tke-esports.tk/",
+    "embed": {
+      "upperTitle": null,
+      "title": null,
+      "description": "Status page for TKE Services - TKE Bot & Website. Monitor the status and uptime of the services provided by TIME KEEPERS ESPORTS.",
+      "thumbnail": "https://cdn.tke-esports.tk/cdn/logos/freshping.png",
+      "image": null,
+      "color": "#EE7D00"
+    }
+  },
+  {
+    "name": "Analytics",
+    "url": "https://counter.dev/",
+    "embed": {
+      "upperTitle": null,
+      "title": null,
+      "description": null,
+      "thumbnail": "https://cdn.tke-esports.tk/cdn/logos/counter.png",
+      "image": null,
+      "color": "#147EFB"
+    }
+  }
+]

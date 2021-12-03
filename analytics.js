@@ -11,5 +11,6 @@ function getQueryVariable(variable) {
 }
 
 let ref = getQueryVariable('ref') || getQueryVariable("from") || getQueryVariable("utm_source") || document.referrer;
+console.log(ref);
 
 if (!sessionStorage.getItem("_swa") && document.referrer.indexOf(location.protocol + "//" + location.host) !== 0) { fetch("https://counter.dev/track?" + new URLSearchParams({ referrer: ref, screen: screen.width + "x" + screen.height, user: "timekeepers", utcoffset: "6" })) }; sessionStorage.setItem("_swa", "1");
